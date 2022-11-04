@@ -22,3 +22,7 @@ This is a normal Sprint-Boot project. You just need to start the Application.
 3. If you have not updated [result.base.path], your report will be available under [Result Dir](/output/result)
 4. To View Result, go to terminal in [Result Dir](/output/result) and run `flask run`
 5. Go to [Differ UI](http://127.0.0.1:5000/) 
+
+
+### Sample Data Differ Output
+[Sample Output](/output/result/sample.png). 
