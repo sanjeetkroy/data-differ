@@ -18,9 +18,13 @@ It will fire-query on both data sources and prepare a report in html for each ta
 This is a normal Sprint-Boot project. You just need to start the Application.
 
 1. Go To StartApplication and hit start in any of your favourite IDE.
-2. Once the Application is Up, hit [Generate API](http://localhost:8080/api/generate). 
+2. Once the Application is Up, hit [Generate API](http://localhost:8081/api/generate). 
 3. If you have not updated [result.base.path], your report will be available under [Result Dir](/output/result)
-4. To View Result, go to terminal in [Result Dir](/output/result) and run `flask run`
+4. To View Result, go to terminal in [Result Dir](/output/) and run `flask run`
+   #### pre-requisites 
+   You must have flask and Flask-AutoIndex, If not Please install using 
+   1. `pip install Flask` [link](https://flask.palletsprojects.com/en/2.2.x/installation/)
+   2. `pip install Flask-AutoIndex`[link](https://pypi.org/project/Flask-AutoIndex/)
 5. Go to [Differ UI](http://127.0.0.1:5000/) 
 
 
